@@ -11,18 +11,25 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 
 ### Usage
 
-1. Create a new eDiscovery search within Purview Compliance Center
+1. Install Prerequisite Modules
+
+	```
+	PS> Install-Module ExchangeOnlineManagement -Force -ErrorAction Stop -Scope CurrentUser
+	PS> Install-Module Figlet -AllowClobber -Force -ErrorAction Stop -Scope CurrentUser
+	```
+
+2. Create a new eDiscovery search within Purview Compliance Center
 
 	- [Search for content in a eDiscovery (Standard) case](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-search-for-content?source=recommendations&view=o365-worldwide)
 	<p>
 
-2. Launch eDiscovery-Export-Tool
+3. Launch eDiscovery-Export-Tool
 
 	```
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-3. Enter __Search Name__, __Export Path__, and __Region__
+4. Enter __Search Name__, __Export Path__, and __Region__ and determine whether to include unindexed items
 
 	[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
 
@@ -40,11 +47,19 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 	| NAM  | North America               |
 	<p>
 
-	<img src="imgs/image-1.jpg" style="border: 1px solid white">
+	<img src="imgs/img1.jpg" style="border: 1px solid white">
 
-4. Accept prompt to download data to local computer
+5. Accept prompt to create export job
 
-	<img src="imgs/image-2.jpg" style="border: 1px solid white">
+	<img src="imgs/img2.jpg" style="border: 1px solid white">
+
+6. Accept prompt to download data to local computer
+
+	<img src="imgs/img3.jpg" style="border: 1px solid white">
+
+7. Review export details
+
+	<img src="imgs/img4.jpg" style="border: 1px solid white">
 
 ### Disclaimer
 
