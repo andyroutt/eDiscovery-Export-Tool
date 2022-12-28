@@ -42,7 +42,7 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 
 	<img src="imgs/image-1.jpg" style="border: 1px solid white">
 
-4. Accept prompt to download
+4. Accept prompt to download data to local computer
 
 	<img src="imgs/image-2.jpg" style="border: 1px solid white">
 
