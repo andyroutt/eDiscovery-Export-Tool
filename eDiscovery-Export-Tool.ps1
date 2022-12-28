@@ -2,7 +2,7 @@
 .Synopsis
     eDiscovery-Export-Tool - Powershell script to create and download eDiscovery searches.
 .NOTES
-    Version:          1.0
+    Version:          1.1
     Author:           Andy Routt
     Creation Date:    12/27/2022
     License:          MIT

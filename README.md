@@ -47,19 +47,19 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 	| NAM  | North America               |
 	<p>
 
-	<img src="imgs/img1.png" style="border: 1px solid white">
+	<img src="images/img1.png" style="border: 1px solid white">
 
 5. Accept prompt to create export job
 
-	<img src="imgs/img2.png" style="border: 1px solid white">
+	<img src="images/img2.png" style="border: 1px solid white">
 
 6. Accept prompt to download data to local computer
 
-	<img src="imgs/img3.png" style="border: 1px solid white">
+	<img src="images/img3.png" style="border: 1px solid white">
 
 7. Review export details
 
-	<img src="imgs/img4.png" style="border: 1px solid white">
+	<img src="images/img4.png" style="border: 1px solid white">
 
 ### Disclaimer
 
