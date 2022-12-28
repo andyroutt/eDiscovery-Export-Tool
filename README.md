@@ -31,4 +31,4 @@ PS> eDiscovery-Export-Tool.ps1
 
 ### Disclaimer
 
-These are proof of concept scripts. Use at your own risk.
+This is a proof of concept script meant for testing purposes only. Use at your own risk.
