@@ -16,33 +16,33 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 
 2. Launch eDiscovery-Export-Tool
 
-```
-PS> .\eDiscovery-Export-Tool.ps1
-```
+	```
+	PS> .\eDiscovery-Export-Tool.ps1
+	```
 
 3. Enter Search Name, Export Path, and Region
 
-[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
+	[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
 
-| Name |            Region           |
-|------|-----------------------------|
-| APC  | Asia-Pacific                |
-| AUS  | Australia                   |
-| CAN  | Canada                      |
-| EUR  | Europe, Middle East, Africa |
-| FRA  | France                      |
-| GBR  | United Kingdon              |
-| IND  | India                       |
-| JPN  | Japan                       |
-| LAM  | Latin America               |
-| NAM  | North America               |
+	| Name |            Region           |
+	|------|-----------------------------|
+	| APC  | Asia-Pacific                |
+	| AUS  | Australia                   |
+	| CAN  | Canada                      |
+	| EUR  | Europe, Middle East, Africa |
+	| FRA  | France                      |
+	| GBR  | United Kingdon              |
+	| IND  | India                       |
+	| JPN  | Japan                       |
+	| LAM  | Latin America               |
+	| NAM  | North America               |
 
 
-<img src="imgs/image-1.jpg" style="border: 1px solid white">
+	<img src="imgs/image-1.jpg" style="border: 1px solid white">
 
 4. Accept prompt to download
 
-<img src="imgs/image-2.jpg" style="border: 1px solid white">
+	<img src="imgs/image-2.jpg" style="border: 1px solid white">
 
 ### Disclaimer
 
