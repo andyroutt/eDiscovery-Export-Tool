@@ -29,7 +29,12 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-4. Enter __Search Name__, __Export Path__, and __Region__ and determine whether to include unindexed items
+4. Authenticate to Compliance Center and fill in job details
+
+	- __Search Name__
+	- __Export Path__
+	- __Region__
+	- Include Unindexed Items
 
 	[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
 
