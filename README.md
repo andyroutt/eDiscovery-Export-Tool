@@ -4,24 +4,30 @@ Powershell script to create and download eDiscovery searches from Purview Compli
 
 ### Prerequisites
 
-- eDiscovery Export Tool
-- ExchangeOnlineManagement Module
-- Figlet Module
-
-### Setup
-
-1. Install the [Microsoft eDiscovery Export Tool](https://complianceclientsdf.blob.core.windows.net/v16/Microsoft.Office.Client.Discovery.UnifiedExportTool.application)
-
+- [Microsoft eDiscovery Export Tool](https://complianceclientsdf.blob.core.windows.net/v16/Microsoft.Office.Client.Discovery.UnifiedExportTool.application)
+- [ExchangeOnlineManagement Module](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/)
+- [Figlet Module](https://www.powershellgallery.com/packages/Figlet/)
+- Existing eDiscovery Search
 
 ### Usage
+
+1. Create a new eDiscovery search within Purview Compliance Center 
+	&rarr; [Search for content in a eDiscovery (Standard) case](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-search-for-content?source=recommendations&view=o365-worldwide)
+	<p>
+
+2. Launch eDiscovery-Export-Tool
 
 ```
 PS> eDiscovery-Export-Tool.ps1
 ```
 
-<img src="imgs/image1.png" style="border: 1px solid black">
-<img src="imgs/image2.png" style="border: 1px solid black">
-<img src="imgs/image3.png" style="border: 1px solid black">
+3. Enter Search Name, Export Path, and Region
+
+<img src="imgs/image1.png" style="border: 1px solid white">
+
+4. Accept prompt to download
+
+<img src="imgs/image2.png" style="border: 1px solid white">
 
 ### Disclaimer
 
