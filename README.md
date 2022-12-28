@@ -1,6 +1,6 @@
 # eDiscovery-Export-Tool
 
-Powershell script to create and download eDiscovery searches from Purview Compliance Portal. Supports assigning export jobs by region and downloading via the command line.
+Powershell script to create and download eDiscovery searches from the Microsoft Purview Compliance Portal. Supports assigning export jobs by region and downloading via the command line.
 
 ### Prerequisites
 
