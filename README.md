@@ -23,11 +23,11 @@ PS> eDiscovery-Export-Tool.ps1
 
 3. Enter Search Name, Export Path, and Region
 
-<img src="imgs/image-1.png" style="border: 1px solid white">
+<img src="imgs/image-1.jpg" style="border: 1px solid white">
 
 4. Accept prompt to download
 
-<img src="imgs/image-2.png" style="border: 1px solid white">
+<img src="imgs/image-2.jpg" style="border: 1px solid white">
 
 ### Disclaimer
 
