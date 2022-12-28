@@ -11,7 +11,9 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 
 ### Usage
 
-1. Create a new eDiscovery search within Purview Compliance Center &rarr; [Search for content in a eDiscovery (Standard) case](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-search-for-content?source=recommendations&view=o365-worldwide)
+1. Create a new eDiscovery search within Purview Compliance Center
+
+	- [Search for content in a eDiscovery (Standard) case](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-search-for-content?source=recommendations&view=o365-worldwide)
 	<p>
 
 2. Launch eDiscovery-Export-Tool
@@ -20,7 +22,7 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-3. Enter Search Name, Export Path, and Region
+3. Enter __Search Name__, __Export Path__, and __Region__
 
 	[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
 
@@ -36,7 +38,7 @@ Powershell script to create and download eDiscovery searches from the Microsoft 
 	| JPN  | Japan                       |
 	| LAM  | Latin America               |
 	| NAM  | North America               |
-
+	<p>
 
 	<img src="imgs/image-1.jpg" style="border: 1px solid white">
 
