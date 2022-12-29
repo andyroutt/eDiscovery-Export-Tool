@@ -10,14 +10,13 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 - Existing eDiscovery Search
 - Admin access on local machine to change registry setting to allow basic authentication (if needed)
 
-#### About Basic Authentication Requirement
+	[Basic auth - Connect to Security & Compliance PowerShell](https://learn.microsoft.com/en-us/powershell/exchange/basic-auth-connect-to-scc-powershell?view=exchange-ps)
 
-[Basic auth - Connect to Security & Compliance PowerShell](https://learn.microsoft.com/en-us/powershell/exchange/basic-auth-connect-to-scc-powershell?view=exchange-ps)
+	> WinRM needs to allow Basic authentication (it's enabled by default). We don't send the username and password combination, but the Basic authentication header is required to send the session's OAuth token, since the client-side WinRM implementation has no support for OAuth.
 
-> WinRM needs to allow Basic authentication (it's enabled by default). We don't send the username and password combination, but the Basic authentication header is required to send the session's OAuth token, since the client-side WinRM implementation has no support for OAuth.
+	[About the Exchange Online PowerShell module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#updates-for-version-300-the-exo-v3-module)
 
-[About the Exchange Online PowerShell module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#updates-for-version-300-the-exo-v3-module)
-> Currently, no cmdlets in Security & Compliance PowerShell cmdlets are backed by the REST API. All cmdlets in Security & Compliance PowerShell still rely on the remote PowerShell session, so PowerShell on your client computer requires Basic authentication in WinRM to successfully use the Connect-IPPSSession cmdlet.
+	> Currently, no cmdlets in Security & Compliance PowerShell cmdlets are backed by the REST API. All cmdlets in Security & Compliance PowerShell still rely on the remote PowerShell session, so PowerShell on your client computer requires Basic authentication in WinRM to successfully use the Connect-IPPSSession cmdlet.
 
 
 ### Usage
