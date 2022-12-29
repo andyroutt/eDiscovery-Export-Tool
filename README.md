@@ -7,8 +7,7 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 - [Microsoft eDiscovery Export Tool](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-configure-edge-to-export-search-results?view=o365-worldwide)
 - [ExchangeOnlineManagement Module](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/)
 - [Figlet Module](https://www.powershellgallery.com/packages/Figlet/)
-- Existing eDiscovery Search
-- Admin access on local machine to change registry setting to allow basic authentication (if needed)
+- Admin access to change WinRM registry setting to allow basic authentication (script will prompt if needed)
 
 	[About the Exchange Online PowerShell module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#updates-for-version-300-the-exo-v3-module) - Microsoft
 
