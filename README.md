@@ -42,12 +42,11 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-5. Authenticate to Compliance Center and fill in export job details
+5. Authenticate to Compliance Center and fill in basic job details
 
 	- Search Name
 	- Export Path
 	- Region
-	- Include Unindexed Items
 
 	[Supported Regions](https://learn.microsoft.com/en-us/powershell/module/exchange/set-compliancesecurityfilter?view=exchange-ps#-region)
 
@@ -65,19 +64,22 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 	| NAM  | North America               |
 	<p>
 
-	<img src="images/img1.png" style="border: 1px solid white">
+	<img src="imgs/img1.png" style="border: 1px solid white">
 
-6. Accept prompt to create export job
+6. Determine additional options
 
-	<img src="images/img2.png" style="border: 1px solid white">
+	- Include Unindexed
+	- Deduplicate Items
 
-7. Accept prompt to download data to local computer
+	<img src="imgs/img2.png" style="border: 1px solid white">
 
-	<img src="images/img3.png" style="border: 1px solid white">
+7. Review job summary and create job
 
-8. Review export details
+	<img src="imgs/img3.png" style="border: 1px solid white">
 
-	<img src="images/img4.png" style="border: 1px solid white">
+8. Download export results and review final summary
+
+	<img src="imgs/img4.png" style="border: 1px solid white">
 
 ### Disclaimer
 
