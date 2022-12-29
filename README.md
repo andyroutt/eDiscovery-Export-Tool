@@ -4,32 +4,37 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 
 ### Prerequisites
 
-- [Microsoft eDiscovery Export Tool](https://complianceclientsdf.blob.core.windows.net/v16/Microsoft.Office.Client.Discovery.UnifiedExportTool.application)
+- [Microsoft eDiscovery Export Tool](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-configure-edge-to-export-search-results?view=o365-worldwide)
 - [ExchangeOnlineManagement Module](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/)
 - [Figlet Module](https://www.powershellgallery.com/packages/Figlet/)
 - Existing eDiscovery Search
 
 ### Usage
 
-1. Install Prerequisite Modules
+1. Install Microsoft eDiscovery Export Tool
+
+	[Microsoft eDiscovery Export Tool](https://complianceclientsdf.blob.core.windows.net/v16/Microsoft.Office.Client.Discovery.UnifiedExportTool.application) (OneClick App)
+
+
+2. Install Prerequisite Modules
 
 	```
 	PS> Install-Module ExchangeOnlineManagement -Force -ErrorAction Stop -Scope CurrentUser
 	PS> Install-Module Figlet -AllowClobber -Force -ErrorAction Stop -Scope CurrentUser
 	```
 
-2. Create a new eDiscovery search within Purview Compliance Center
+3. Create a new eDiscovery search within Purview Compliance Center
 
 	- [Search for content in a eDiscovery (Standard) case](https://learn.microsoft.com/en-us/microsoft-365/compliance/ediscovery-search-for-content?source=recommendations&view=o365-worldwide)
 	<p>
 
-3. Launch eDiscovery-Export-Tool
+4. Launch eDiscovery-Export-Tool
 
 	```
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-4. Authenticate to Compliance Center and fill in job details
+5. Authenticate to Compliance Center and fill in job details
 
 	- Search Name
 	- Export Path
@@ -54,15 +59,15 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 
 	<img src="images/img1.png" style="border: 1px solid white">
 
-5. Accept prompt to create export job
+6. Accept prompt to create export job
 
 	<img src="images/img2.png" style="border: 1px solid white">
 
-6. Accept prompt to download data to local computer
+7. Accept prompt to download data to local computer
 
 	<img src="images/img3.png" style="border: 1px solid white">
 
-7. Review export details
+8. Review export details
 
 	<img src="images/img4.png" style="border: 1px solid white">
 
