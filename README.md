@@ -34,7 +34,7 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 	PS> .\eDiscovery-Export-Tool.ps1
 	```
 
-5. Authenticate to Compliance Center and fill in job details
+5. Authenticate to Compliance Center and fill in export job details
 
 	- Search Name
 	- Export Path
