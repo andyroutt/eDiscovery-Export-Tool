@@ -68,17 +68,17 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 
 6. Determine additional options
 
-	- Include Unindexed
+	- Include Unindexed Items
 	- Deduplicate Items
 	<p>
 
 	<img src="imgs/img2.png" style="border: 1px solid white">
 
-7. Review job summary and create job
+7. Review summary and create export job
 
 	<img src="imgs/img3.png" style="border: 1px solid white">
 
-8. Download export results and review final summary
+8. Download results and review final export summary
 
 	<img src="imgs/img4.png" style="border: 1px solid white">
 
