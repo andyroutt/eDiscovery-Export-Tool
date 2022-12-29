@@ -11,7 +11,7 @@ Powershell script to create and download eDiscovery export jobs from the Microso
 
 ### Usage
 
-1. Install Microsoft eDiscovery Export Tool (OneClick App)
+1. Install Microsoft eDiscovery Export Tool (ClickOnce App)
 
 	- [Microsoft eDiscovery Export Tool](https://complianceclientsdf.blob.core.windows.net/v16/Microsoft.Office.Client.Discovery.UnifiedExportTool.application) 
 
